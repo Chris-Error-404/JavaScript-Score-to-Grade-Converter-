@@ -105,7 +105,7 @@ function GradeConverter(score){
 
 
 //NOTE
-/* I don't know how efficient this code is because of the number of conditions to check i would have use a switch case since i read somewhere they are more optimized and faster than if statements but the work about for the use of conditions is too long 
+/* I don't know how efficient this code is because of the number of conditions to check i would have used a switch case since i read somewhere they are more optimized and faster than if statements but the work about for the use of conditions is too long 
 
 e.g
 
@@ -252,10 +252,10 @@ score_in_percentage = (score1 / overall) * 100
 
 
 //CONCLUSION
-/* That's it yes its a vvery small script but very useful script, i just wanted to do something while i was learning Javascript i might implement this on my e-School Project which can be found on my Github URL "https://github.com/Chris-Error-404" hope i keep scaling up my projects and continue making them undertandable for everyone
+/* That's it yes its a very small script but its's very useful script, i just wanted to do something while i was learning Javascript i might implement this on my e-School Project which can be found on my Github "https://github.com/Chris-Error-404" hope i keep scaling up my projects and continue making them undertandable for everyone
 
 I would have used JS HTML DOM to get user input directly from the browser but that's besides the point
-Might create a CODEPEN and a Youtube Channel*/
+Might create a CODEPEN and a Youtube Channel */
 
 
 
