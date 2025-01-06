@@ -194,11 +194,11 @@ SAME ALGORITHM APPLIES just consider values as percentage and change first steps
 
 
 
-//Using score1 because scores is already taken
+//We are still using score because it is a local variable
 
-function ScoreConverterPercentage(score1,overall){
+function ScoreConverterPercentage(score,overall){
 
-score_in_percentage = (score1 / overall) * 100
+score_in_percentage = (score / overall) * 100
 
     if( score_in_percentage >= 70 && score_in_percentage <= 100)
     {
@@ -231,11 +231,11 @@ score_in_percentage = (score1 / overall) * 100
         console.log("Remark: Fail")
     }
 
-    else if(score1 > overall){
+    else if(score > overall){
         console.log("Error! The score you inputed in above ypur overall")
     }
 
-    else if(score1 <  overall && score1 < 0){
+    else if(score <  overall && score1 < 0){
         console.log("Error! The score you inputed in less than your overall")
     }
 
@@ -249,10 +249,13 @@ score_in_percentage = (score1 / overall) * 100
 /* And input score and overall i.e (score, overall) 
     e.g (70,80)  */
 
+/*Or you can put it in an Output variable i.e 
+const output = ScoreConverterPercentage();
+
 
 
 //CONCLUSION
-/* That's it yes its a very small script but its's very useful script, i just wanted to do something while i was learning Javascript i might implement this on my e-School Project which can be found on my Github "https://github.com/Chris-Error-404" hope i keep scaling up my projects and continue making them undertandable for everyone
+/* That's it yes its a very small script but its's also very useful script, i just wanted to do something while i was learning Javascript i might implement this on my e-School Project which can be found on my Github "https://github.com/Chris-Error-404" hope i keep scaling up my projects and continue making them undertandable for everyone
 
 I would have used JS HTML DOM to get user input directly from the browser but that's besides the point
 Might create a CODEPEN and a Youtube Channel */
