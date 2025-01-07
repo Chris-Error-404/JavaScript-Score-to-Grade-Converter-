@@ -85,34 +85,54 @@ function GradeConverter(score) {
 
    Formula for percentage = (score / overall) * 100
 
-   The same algorithm applies, just consider values as percentages and change first steps.
+The same algorithm applies, just consider values as percentages 
+   A: 100% - 70%
+   B: 69% - 60%
+   C: 59% - 50%
+   D: 50% - 45%
+   E: 44% - 40%
+   F: 39% - 0%
 
+
+//New Algorithm
 1. START
+
 2. Input Score (S)
+
 3. Input overall (O)
+
 4. Input score in percentage (S%)
     i.e S% = (S / O) * 100
+
 5. Input score (S) -- This is the variable
 
-   Then the following applies:
 6. if S% >= 70 AND <= 100 
     PRINT grade A
+
 7. else if S% >= 60 AND <= 69 
     PRINT grade B
+
 8. else if S% >= 50 AND <= 59 
     PRINT grade C
+
 9. else if S% >= 45 AND <= 50 
     PRINT grade D
+
 10. else if S% >= 40 AND <= 44 
     PRINT grade E
+
 11. else if S% >= 0 AND <= 39 
     PRINT grade F
+
 12. else if S > O 
     PRINT Error! The score you input is above your overall 
+
 13. else If S < 0 AND S < O
     PRINT Error! The score you input is less than your overall 
+
 14. else
     PRINT Error! Check inputed value    
+
 15. END
 */
 
@@ -151,7 +171,7 @@ function ScoreConverterPercentage(score, overall) {
 };
 
 // Call ScoreConverterPercentage() with sample inputs
-// ScoreConverterPercentage(70, 80);
+ScoreConverterPercentage(10, 30);
 
 //CONCLUSION
 /* That's it yes its a very small script but its's also very useful script, i just wanted to do something while i was learning Javascript i might implement this on my e-School Project which can be found on my Github "https://github.com/Chris-Error-404" hope i keep scaling up my projects and continue making them undertandable for everyone
