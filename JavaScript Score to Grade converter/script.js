@@ -153,11 +153,6 @@ function ScoreConverterPercentage(score, overall) {
 // Call ScoreConverterPercentage() with sample inputs
 // ScoreConverterPercentage(70, 80);
 
-// Conclusion: This code is now cleaner, more efficient, and handles various edge cases like invalid inputs or scores above/below the range. 
-// You can use this for simple grade conversion, and you can expand it to handle more complex scenarios in the future. 
-
-
-
 //CONCLUSION
 /* That's it yes its a very small script but its's also very useful script, i just wanted to do something while i was learning Javascript i might implement this on my e-School Project which can be found on my Github "https://github.com/Chris-Error-404" hope i keep scaling up my projects and continue making them undertandable for everyone
 
