@@ -16,22 +16,22 @@
 1. START
 2. Input score (S) -- This is the variable
 
-3. if S >= 70 AND <= 100 
+3. if S >= 70  
     PRINT grade A
 
-4. else if S >= 60 AND <= 69 
+4. else if S >= 60
     PRINT grade B
 
-5. else if S >= 50 AND <= 59 
+5. else if S >= 50
     PRINT grade C
 
-6. else if S >= 45 AND <= 50 
+6. else if S >= 45 
     PRINT grade D
     
-7. else if S >= 40 AND <= 44 
+7. else if S >= 40 
     PRINT grade E
     
-8. else if S >= 0 AND <= 39 
+8. else if S  < 40 
     PRINT grade F
 
 9. else if S > 100 
@@ -106,22 +106,22 @@ The same algorithm applies, just consider values as percentages
 
 5. Input score (S) -- This is the variable
 
-6. if S% >= 70 AND <= 100 
+6. if S% >= 70 
     PRINT grade A
 
-7. else if S% >= 60 AND <= 69 
+7. else if S% >= 60 
     PRINT grade B
 
-8. else if S% >= 50 AND <= 59 
+8. else if S% >= 50 
     PRINT grade C
 
-9. else if S% >= 45 AND <= 50 
+9. else if S% >= 45 
     PRINT grade D
 
-10. else if S% >= 40 AND <= 44 
+10. else if S% >= 40 
     PRINT grade E
 
-11. else if S% >= 0 AND <= 39 
+11. else if S% < 40 
     PRINT grade F
 
 12. else if S > O 
