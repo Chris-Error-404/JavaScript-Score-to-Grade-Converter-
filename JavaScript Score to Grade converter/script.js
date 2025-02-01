@@ -171,7 +171,7 @@ function ScoreConverterPercentage(score, overall) {
 };
 
 // Call ScoreConverterPercentage() with sample inputs
-ScoreConverterPercentage(10, 30);
+ScoreConverterPercentage();
 
 //CONCLUSION
 /* That's it yes its a very small script but its's also very useful script, i just wanted to do something while i was learning Javascript i might implement this on my e-School Project which can be found on my Github "https://github.com/Chris-Error-404" hope i keep scaling up my projects and continue making them undertandable for everyone
