@@ -1,7 +1,7 @@
 /* This is a simple script that translates your Score into a Grade */
 
 /* This is how grade ranges work in Nigerian Universities
-   ACCORDING TO slideplayer.com 
+   according TO slideplayer.com 
 
    A: 100 - 70
    B: 69 - 60
