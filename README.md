@@ -31,8 +31,5 @@ You can run the script in a browser or with Node.js:
 ### Option A: Run in Browser
 
 ```html
-<script src="gradeConverter.js"></script>
-<script>
-  const grade = convertToGrade(85);
-  console.log(`Grade: ${grade}`);
-</script>
+<script src="script.js"></script>
+
